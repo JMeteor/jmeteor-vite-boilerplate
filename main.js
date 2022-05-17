@@ -1,7 +1,7 @@
 import './styles/css/normalize.css';
 import './styles/scss/main.scss';
 
-import './js/app';
+import './app';
 
 document.querySelector('#app').innerHTML = `
   <h1>Welcome to Jerzy Meteor Vite Boilerplate!</h1>
