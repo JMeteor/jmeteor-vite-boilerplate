@@ -1,5 +1,7 @@
+$color-red: #fe4a49;
+
 :root {
-  --base-red: #fe4a49;
+  --base-red: #{$color-red};
   --base-blue: #2ab7ca;
   --base-yellow: #fed766;
   --base-gray: #e6e5ea;
