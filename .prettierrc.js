@@ -1,15 +1,17 @@
-module.export = {
+module.exports = {
   // Fit code within this line limit
   printWidth: 80,
-  // Controls the printing of spaces inside object literals
+  // Print spaces between brackets in object literals.
   bracketSpacing: true,
-  trailingComma: "es5",
-  // Indent lines with tabs
+  // Print trailing commas wherever possible in multi-line comma-separated syntactic structures.
+  trailingComma: 'es5',
+  // Indent lines with tabs instead of spaces.
   useTabs: false,
-  // Number of spaces it should use per tab
+  // Specify the number of spaces per indentation-level.
   tabWidth: 2,
-  // If true, will use single instead of double quotes
+  // Print semicolons at the ends of statements.
   semi: true,
+  // Use single quotes instead of double quotes.
   singleQuote: true,
 
   // Advanced feature. Enable and use 'prettier.parser' parser for those language ids. Restart required

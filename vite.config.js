@@ -1,12 +1,12 @@
-const path = require("path");
+const path = require('path');
 
-import viteImagemin from "vite-plugin-imagemin";
-import legacy from "@vitejs/plugin-legacy";
+import viteImagemin from 'vite-plugin-imagemin';
+import legacy from '@vitejs/plugin-legacy';
 
 export default {
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      '@': path.resolve(__dirname, './src'),
     },
   },
   build: {
@@ -33,17 +33,17 @@ export default {
       svgo: {
         plugins: [
           {
-            name: "removeViewBox",
+            name: 'removeViewBox',
           },
           {
-            name: "removeEmptyAttrs",
+            name: 'removeEmptyAttrs',
             active: false,
           },
         ],
       },
     }),
     legacy({
-      targets: ["defaults", "not IE 11"],
+      targets: ['defaults', 'not IE 11'],
     }),
   ],
 };
