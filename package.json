@@ -5,9 +5,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint --ext .js --ignore-path .gitignore --fix js",
+    "format": "prettier . --write"
   },
   "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "2.6.2",
     "sass": "^1.51.0",
     "vite": "^2.9.9",
     "vite-plugin-imagemin": "^0.6.1"
