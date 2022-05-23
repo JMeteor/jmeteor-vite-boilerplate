@@ -1,4 +1,4 @@
-import './styles/css/normalize.css';
+import './styles/vendor/normalize.css';
 import './styles/scss/main.scss';
 
 import './app';

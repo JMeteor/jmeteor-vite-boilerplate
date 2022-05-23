@@ -21,7 +21,7 @@ module.exports = {
 
   // Advanced feature. Enable and use postcss parser for those language ids. Restart required
   // cssEnabled: [
-  //   "css",
+  //   "vendor",
   //   "scss",
   // ]
 };
